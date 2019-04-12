@@ -1,0 +1,34 @@
+# Project information
+site_name: Gluu Contributor Guide
+site_description: Instructions and guidelines for contributing to Gluu projects
+
+# Copyright
+copyright: Copyright &copy; 2019, Gluu, Inc.
+
+# Repository
+repo_name: GluuFederation/docs-dev-guide-prod
+repo_url: https://github.com/GluuFederation/docs-dev-guide-prod/
+edit_uri: edit/master/docs/source
+docs_dir: source
+
+# Configuration
+theme: 
+    name: material
+    palette:
+        primary: 'green'
+        accent: 'green'
+    logo: 'gluu.jpg'
+    favicon: 'favicon.ico'
+extra:
+    
+# Extensions    
+markdown_extensions:
+- admonition
+- toc:
+     permalink: '#'
+- codehilite
+- pymdownx.superfences
+
+# Navigation Menu
+nav:
+- 'Home': 'index.md'
